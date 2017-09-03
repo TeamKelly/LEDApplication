@@ -172,7 +172,7 @@ public class MainActivity extends Activity {
     //달력 좌표 index로 변환
     int xyToindex(int x,int y) {
         int ledIndex;
-        if(x%2==0) {
+        if(x%2==1) {
             ledIndex = (x-1)*7+y;
         } else {
             ledIndex = x*7-y+1;
