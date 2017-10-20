@@ -10,7 +10,7 @@ public class Dates {
     public int date = 0;
     public int month = 0;
     public int color = 0;
-    public int colors[];
+    public int[] colors;
 
 
     public Dates() {
